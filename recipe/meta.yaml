@@ -1,4 +1,4 @@
-{% set version = "3.73.2" %}
+{% set version = "3.74.0" %}
 
 package:
   name: doppler-cli
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/DopplerHQ/cli/archive/{{ version }}.tar.gz
-  sha256: 1f59b0facd39905b831dd5275ffb508d5dfab5a6ecb74bb6ba54c68b8d47f7b7
+  sha256: 7174cf7c963e939180cd07e325a163e2712ad1346b2aef09a267f0328fd9ee1a
 
 build:
   number: 0
