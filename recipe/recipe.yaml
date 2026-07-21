@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.76.0"
+  version: "3.76.1"
 
 package:
   name: doppler-cli
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/DopplerHQ/cli/archive/${{ version }}.tar.gz
-  sha256: cc8c3a2abb9f7ade57cc42ba67cbe47ff6a35270b1f7e4af2277e7cd94dc72f8
+  sha256: ea645c8ddd90f54255bcfb936d892681532c4ecdd7b538b000fd90662ddfaeba
 
 build:
   number: 0
